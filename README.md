@@ -1,1 +1,15 @@
 # Golang
+
+
+# nil type
+
+
+
+
+
+
+
+
+
+
+
