@@ -74,8 +74,6 @@ func HelloAnonymous() {
 }
 
 
-
-
 func main() {
 	fmt.Println(addTo(3))
 	fmt.Println(addTo(3, 2))

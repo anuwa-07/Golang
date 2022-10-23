@@ -1,10 +1,8 @@
 
-
 package main
 import (
 	"fmt"
 )
-
 
 
 // define struct
@@ -26,7 +24,6 @@ func main() {
 	person_01.age = 100
 	person_01.email = "anuruddha@gmail.com"
 	person_01.name = "anuruddha"
-
 
 	fmt.Println(person_01)
 	fmt.Println(employee.age == 400)

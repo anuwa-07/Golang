@@ -1,7 +1,5 @@
 
-
 package main
-
 import (
 	"fmt"
 )
@@ -12,7 +10,6 @@ func main() {
 	var slice_01[]int;
 	var slice_02 = []int{10, 20, 30, 40, 50, 60, 70}
 	slice_03 := make([]int, 10, 20)
-
 
 	fmt.Println(slice_01)
 	fmt.Println(slice_02)

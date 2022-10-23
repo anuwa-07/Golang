@@ -28,7 +28,6 @@ func main() {
 	fmt.Println(animals)
 	fmt.Println(ages)
 
-
 	// reading & write values in Map
 	map_03 := map[string]int{}
 
@@ -41,11 +40,6 @@ func main() {
 	// if you try to read key not in Map, you will get Zero as default,
 	vall, ok := map_03["WORLDX"]
 	fmt.Println(vall, ok)
-
-
-
-
-
 
 }
 
