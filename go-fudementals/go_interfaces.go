@@ -19,6 +19,15 @@ func (p Person) getInfo() string {
 	return fmt.Sprintf("%s %s, age %d", p.name, p.email, p.id)
 }
 
+func (p *Person) updateName() bool{
+	p.name = "Nimeshika Dilshani";
+	fmt.Println(p);
+	return true
+}
+
+// Two types of method
+// Pointer Receivers and Value Receivers
+
 
 func main() {
 	var person Person;
@@ -32,8 +41,11 @@ func main() {
 
 	var info string;
 	info = person.getInfo();
+	status := person.updateName();
 
 	fmt.Println(info);
+	fmt.Println("Updated status: ", status);
+	fmt.Println(person);
 }
 
 
